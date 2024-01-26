@@ -66,5 +66,5 @@ class YourPipe implements LoggablePipe
 ```
 
 ```php
-YourModel::addLogChange(new YourPipe);
+YourModel::addLogChange(new YourPipe() );
 ```
